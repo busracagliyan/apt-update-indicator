@@ -1,0 +1,101 @@
+## Changes
+
+### v22
+- Remove Gnome 3.30 and 3.32 as they are incompatible with newer GJS standards.
+
+### v21
+- Add support for Gnome 3.28-3.36.
+- Drop support for older versions
+- Modernize process management: Gio.Subprocess.
+
+### v20
+- Add support to copy to clipboard when clicking on a package name.
+- Bug fixes.
+
+### v19
+- Add Gnome 3.26 support.
+
+### v18
+- Don't force the use of `pkexec` for the custom check-updates command.
+- Small styling fix.
+
+### v17
+- Added keyboard shortcut to open the indicator
+- Ignore list: create a list of packages to be ignored in notifications
+- Changed default terminal to gnome-terminal
+- Use PopupMenuItem instead of GtkLabel to show lists
+- Changed font to monospace to allow for better formatting.
+- Better accessibility support for visually impaired users.
+
+### v16
+- Small fix for string format
+
+### v15
+- Improve the performance when checking the network status
+- Better format for the list of updates
+- Option: distinguish security/important updates (on by default)
+- Use symbolic icons for avilable/urgent updates
+
+### v14
+- Code reorganization to allow for better maintainability
+- Automatically list upgrades when the apt/dpkg caches are refreshed
+- Larger icon size
+- Add initial timeout to allow for a smoother initialization
+
+### v13
+- Add update method: gnome-update-viewer
+
+### v12
+- Remove unnecessary space on the indicator
+
+### v11
+- Add support for Gnome-Shell 3.24
+- Don't assume the use of sudo for the custom command
+
+### v10
+- Interval: choose hours/days/weeks
+- Improve show-on-terminal section
+- Added get-updates.sh script, to prevent gchar overflow
+- Improved notifications
+
+### v9
+- Fix typo in Settings
+- Fix automatic updates using minutes instead of hours
+- Improve readability of notification and indicator
+
+### v8
+- Use gnome-software or update-manager to apply updates
+
+### v7
+- Change the default terminal to xterm
+- Use `pkcon refresh` as the default command to check for updates
+
+### v6
+- Use standard date formatting tools
+- Automatic checks are now compatible across sessions
+- Use hours instead of minutes in settings
+- Make use of symbolic icons to follow GNOME HIG.
+
+### v5
+- Use policykit instead of sudo for password-less checks
+- Add option to show update process on a terminal
+- Small fixes for scripts
+- Update Spanish and French translations
+
+### v4
+- Complete redesign of the Settings UI
+- Check for internet connection before looking for new updates
+- Remove the cancel button: process runs as root
+- Improve date display
+- Add a system for proper handling of global signals
+
+### v3
+- Add date and time of the last update to the menu
+- Bug fixes
+- Synaptic-like features: check for new packages in repository, local or obsolete packages, residual config files and autoremovable packages
+
+### v2
+- Add option to check for updates without password
+
+### v1
+- First version

@@ -1,0 +1,22 @@
+Source: gnome-shell-extension-apt-update-indicator
+Section: gnome
+Priority: optional
+Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
+Uploaders: @GNOME_TEAM@
+Build-Depends: debhelper (>= 11),
+               gettext,
+               gnome-pkg-tools,
+               libglib2.0-bin,
+               meson
+Standards-Version: 4.2.1
+Homepage: https://extensions.gnome.org/extension/1139/apt-update-indicator/
+Rules-Requires-Root: no
+
+Package: gnome-shell-extension-apt-update-indicator
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-shell (>= 3.30),
+         gnome-packagekit
+Description: Update via an indicator on GNOME
+ This package provides a GNOME Shell extension to show
+ update indicator for apt-based distributions.

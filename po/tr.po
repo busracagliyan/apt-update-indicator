@@ -1,0 +1,566 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Fatih Altun <fatih.altun@pardus.org.tr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-29 04:22+0300\n"
+"PO-Revision-Date: 2021-06-29 04:52+0300\n"
+"Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
+"Language-Team: Turkish <gelistirici@pardus.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: indicator.js:150
+msgid "New in repository"
+msgstr "Depoda yeni"
+
+#: indicator.js:153 Settings.ui:1419
+msgid "Local/Obsolete packages"
+msgstr "Yerel/Eski paketler"
+
+#: indicator.js:156
+msgid "Residual config files"
+msgstr "Kalmış yapılandırma dosyaları"
+
+#: indicator.js:159
+msgid "Autoremovable"
+msgstr "Kendiliğinden kaldırılabilir"
+
+#: indicator.js:163
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: indicator.js:164
+msgid "Apply updates"
+msgstr "Güncellemeleri uygula"
+
+#: indicator.js:167 indicator.js:250
+msgid "Check now"
+msgstr "Şimdi denetle"
+
+#: indicator.js:247
+msgid "Checking"
+msgstr "Denetleniyor"
+
+#: indicator.js:310
+#, javascript-format
+msgid "%d update pending"
+msgid_plural "%d updates pending"
+msgstr[0] "%d güncelleme bekliyor"
+
+#: indicator.js:342
+msgid "Error"
+msgstr "Hata"
+
+#: indicator.js:346
+msgid "No internet"
+msgstr "İnternet yok"
+
+#: indicator.js:349
+msgid "Initializing"
+msgstr "Başlatılıyor"
+
+#: indicator.js:353
+msgid "Up to date"
+msgstr "Güncel"
+
+#: indicator.js:387 indicator.js:394
+msgid "New Update"
+msgid_plural "New Updates"
+msgstr[0] "Yeni Güncelleme"
+
+#: indicator.js:395
+#, javascript-format
+msgid "There is %d update pending"
+msgid_plural "There are %d updates pending"
+msgstr[0] "Bekleyen %d güncelleme var"
+
+#: indicator.js:581
+msgid "Update now"
+msgstr "Şimdi güncelle"
+
+#: monitors.js:64
+#, javascript-format
+msgid "Can not connect to %s"
+msgstr "%s hedefine bağlanamıyor"
+
+#: prefs.js:66
+msgid "Indicator options"
+msgstr "Gösterge seçenekleri"
+
+#: prefs.js:101
+msgid "Notification options"
+msgstr "Bildirim seçenekleri"
+
+#: prefs.js:180
+msgid "Custom command for updates"
+msgstr "Güncellemeler için özel komut"
+
+#: prefs.js:271
+msgid "Package name"
+msgstr "Paket ismi"
+
+#: prefs.js:298
+msgid "Add entry to ignore list"
+msgstr "Yok sayılacak listeye giriş ekle"
+
+#: prefs.js:373
+msgid "Edit entry"
+msgstr "Girişi düzenle"
+
+#: Settings.ui:74
+msgid "Always show the indicator"
+msgstr "Göstergeyi her zaman göster"
+
+#: Settings.ui:109
+msgid "Show updates count on the indicator"
+msgstr "Gösterge üzerinde güncelleme sayısını göster"
+
+#: Settings.ui:144
+msgid "If updates count is less than this number (0 to disable)"
+msgstr "Güncelleme sayısı bu numaradan düşükse (pasifleştirmek için 0)"
+
+#: Settings.ui:158
+msgid "Auto-expand updates list"
+msgstr "Güncelleme listesini kendiliğinden genişlet"
+
+#: Settings.ui:227
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:48
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:49
+msgid "Send a notification when new updates are available"
+msgstr "Yeni güncellemeler olduğunda bir bildirim gönder"
+
+#: Settings.ui:247
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:60
+msgid "Use transient notifications (auto dismiss)"
+msgstr "Geçici bildirimler kullan (kendiliğinden ortadan kalkan)"
+
+#: Settings.ui:276
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:54
+msgid "How much information to show on notifications"
+msgstr "Bildirimleri göstermek için ne kadar bilgi gerekli"
+
+#: Settings.ui:287
+msgid "Up to a maximum of 50 package names."
+msgstr "50 paket adından bir en fazlasına kadar."
+
+#: Settings.ui:303
+msgid "Count only"
+msgstr "Sadece sayı"
+
+#: Settings.ui:304
+msgid "New updates names"
+msgstr "Yeni güncelleştirme adları"
+
+#: Settings.ui:305
+msgid "All updates names"
+msgstr "Tüm güncelleştirme adları"
+
+#: Settings.ui:362
+msgid "Command to update packages"
+msgstr "Paketleri güncellemek için komut"
+
+#: Settings.ui:371
+msgid "You can use sudo instead of pkexec for the terminal."
+msgstr "Uçbirim için pkexec yerine sudo kullanabilirsiniz."
+
+#: Settings.ui:407
+msgid "Show output on terminal"
+msgstr "Uçbirimde çıktıyı göster"
+
+#: Settings.ui:442
+msgid "Terminal to use"
+msgstr "Kullanılacak uçbirim"
+
+#: Settings.ui:453
+msgid "Ex: xterm -e"
+msgstr "Örnek: xterm -e"
+
+#: Settings.ui:513 Settings.ui:609
+msgid "Clear entry"
+msgstr "Girdiyi sil"
+
+#: Settings.ui:550 Settings.ui:646
+msgid "Cancel"
+msgstr "İptal"
+
+#: Settings.ui:565 Settings.ui:661
+msgid "Save"
+msgstr "Kaydet"
+
+#: Settings.ui:714
+msgid "Check for updates every:"
+msgstr "Her belirli bir zamanda güncellemeleri denetle:"
+
+#: Settings.ui:725
+msgid "Automatic checks, 0 to disable"
+msgstr "Kendiliğinden denetleme, pasifleştirmek için 0"
+
+#: Settings.ui:753
+msgid "Hours"
+msgstr "Saat"
+
+#: Settings.ui:754
+msgid "Days"
+msgstr "Gün"
+
+#: Settings.ui:755
+msgid "Weeks"
+msgstr "Hafta"
+
+#: Settings.ui:797
+msgid "Strip out version numbers"
+msgstr "Sürüm numaralarını çıkar"
+
+#: Settings.ui:832
+msgid "Highlight security/important updates"
+msgstr "Güvenlik güncellemeleriyle önemli güncellemeleri iyice göster"
+
+#: Settings.ui:883
+msgid "Indicator"
+msgstr "Gösterge"
+
+#: Settings.ui:942
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: Settings.ui:1005
+msgid "Shortcut to open the indicator"
+msgstr "Göstergeyi açmak için kısayol"
+
+#: Settings.ui:1018
+msgid "Syntax: <Shift>, <Ctrl>, <Alt>, <Super>"
+msgstr "Yazım: <Shift>, <Ctrl>, <Alt>, <Super>"
+
+#: Settings.ui:1064
+msgid "Basic settings"
+msgstr "Temel ayarlar"
+
+#: Settings.ui:1100
+msgid "Reset values for all commands"
+msgstr "Tüm komutların değerlerini sıfırla"
+
+#: Settings.ui:1109
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: Settings.ui:1146
+msgid "Update method"
+msgstr "Güncelleme yöntemi"
+
+#: Settings.ui:1157
+msgid "Method to use to apply the updates."
+msgstr "Güncellemeleri uygulamak için kullanılacak yönetm."
+
+#: Settings.ui:1197
+msgid "Launch gnome-software"
+msgstr "GNOME Yazılımlar'ı başlat"
+
+#: Settings.ui:1198
+msgid "Update-manager (Ubuntu only)"
+msgstr "Güncelleme Yöneticisi (yalnızca Ubuntu için)"
+
+#: Settings.ui:1199
+msgid "Gnome package updater"
+msgstr "GNOME Paket Güncelleyici"
+
+#: Settings.ui:1200
+msgid "Custom"
+msgstr "Özel"
+
+#: Settings.ui:1242
+msgid ""
+"The default command is \"pkcon refresh\", which uses packagekit with the apt "
+"backend. You can define a custom command below, to be executed using pkexec."
+msgstr ""
+"APT arkaucuyla packagekit kullanan \"pkcon refresh\" ön tanımlı komuttur. "
+"Aşağıda pkexec kullanılarak çalıştırılacak özel bir komut "
+"tanımlayabilirsiniz."
+
+#: Settings.ui:1257
+msgid "Use a custom command to check for updates"
+msgstr "Güncellemeleri denetlemek için özel bir komut kullan"
+
+#: Settings.ui:1290
+msgid "Custom command to check for updates"
+msgstr "Güncellemeleri denetlemek için özel komut"
+
+#: Settings.ui:1318
+msgid "Advanced settings"
+msgstr "Gelişmiş ayarlar"
+
+#: Settings.ui:1354
+msgid ""
+"Include an item in the indicator with a list of new packages in the "
+"repository."
+msgstr "Depodaki yeni paketlerin bir listesiyle göstergede bir öge içer."
+
+#: Settings.ui:1369
+msgid "New packages in repository"
+msgstr "Depodaki yeni paketler"
+
+#: Settings.ui:1404
+msgid ""
+"Include an item in the indicator with a list of obsolete or local packages. "
+"Obsolete packages are not available in the repository. Local packages are "
+"available, but an unavailable version is installed."
+msgstr ""
+"Yerel ya da eski paketlerin bir listesiyle göstergede bir öge içer. Eski "
+"paketler depoda bulunmayan paketlerdir. Yerel paketler, bulunan ancak "
+"bulunmayan sürümü kurulu olan paketlerdir."
+
+#: Settings.ui:1454
+msgid ""
+"Include an item in the indicator with a list of packages that have residual "
+"config files. Run \"sudo apt purge pkgname\" to clean them."
+msgstr ""
+"Kalmış yapılandırma dosyaları olan paketlerin bir listesiyle göstergede bir "
+"öge içer. Onları temizlemek için \"sudo apt purge pkgname\" komutunu "
+"çalıştırınız."
+
+#: Settings.ui:1469
+msgid "Residual packages"
+msgstr "Kalıntı paketler"
+
+#: Settings.ui:1504
+msgid ""
+"Include an item in the indicator with a list of autoremovable packages. Run "
+"\"sudo apt autoremove\" to remove them."
+msgstr "1"
+
+#: Settings.ui:1519
+msgid "Autoremovable packages"
+msgstr "Kendiliğinden kaldırılabilir paketler"
+
+#: Settings.ui:1555
+msgid "Package status"
+msgstr "Paket durumu"
+
+#: Settings.ui:1575
+msgid ""
+"Packages in this list will be excluded from the updates. As an example, this "
+"is useful for packages that are downgraded manually."
+msgstr ""
+"Bu listedeki paketler güncellemelerden dışlanabilir. Örnek olarak, bu durum, "
+"elle sürüm düşürülen paketler için kullanışlıdır."
+
+#: Settings.ui:1659
+msgid "Ignore"
+msgstr "Yoksay"
+
+#: Settings.ui:1703
+msgid "version: "
+msgstr "sürüm: "
+
+#: Settings.ui:1731
+msgid "Adds an indicator to the top panel that allows to check for updates"
+msgstr "Üst panele güncellemeleri denetlemeye izin veren bir gösterge ekler"
+
+#: Settings.ui:1747
+msgid "Maintained by"
+msgstr "Paketleyen"
+
+#: Settings.ui:1775
+msgid "Webpage"
+msgstr "Web sayfası"
+
+#: Settings.ui:1791
+msgid ""
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
+"Sethe <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, version 2 or later</a> for details.</span>"
+msgstr ""
+"<span size=\"small\">Bu program kesinlikle hiçbir garanti vermiyor.\n"
+"Ayrıntılar için <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"Genel Kamu Lisansı, sürüm 3 ya da sonrası</a> bağlantısına bakın.</span>"
+
+#: Settings.ui:1808
+msgid "About"
+msgstr "Hakkında"
+
+#: updateManager.js:570
+msgid "Last check: "
+msgstr "Son denetleme: "
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:19
+msgid "Interval between updates check"
+msgstr "Güncelleme kontrolleri arasındaki aralık"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:20
+msgid "Time to wait between two automatic checks"
+msgstr "İki otomatik kontrol arasında bekleme süresi"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:26
+msgid "Unit to use for the interval"
+msgstr "Aralık için kullanılacak birim"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:27
+msgid "0: hours, 1: days, 2: weeks"
+msgstr "0: saat, 1: gün, 2: hafta"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:32
+msgid "Indicator is always visble"
+msgstr "Gösterge her zaman görünür"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:33
+msgid ""
+"If true, the indicator is always visible, even when non updates are pending"
+msgstr ""
+"Doğruysa, bekleyen güncelleme olmadığında bile gösterge her zaman görünür"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:40
+msgid "Show updates count on indicator"
+msgstr "Göstergede güncelleme sayısını göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:41
+msgid "If true, the indicator will display the number of updates pending"
+msgstr "Doğruysa, gösterge bekleyen güncellemelerin sayısını görüntüler."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:55
+msgid "0:count, 1:list"
+msgstr "0:sayı, 1:liste"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:66
+msgid "Use a shortcut to open the indicator."
+msgstr "Göstergeyi açmak için bir kısayol kullanın."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:72
+msgid "Keybinding to open the indicator."
+msgstr "Göstergeyi açmak için tuş bağlama."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:73
+msgid "If showing, the indicator menu is toggled."
+msgstr "Gösteriliyorsa, gösterge menüsü değiştirilir."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:78
+msgid "Keybinding to show the dock and the number overlay."
+msgstr "Rıhtım ve sayı bindirmesini göstermek için tuş bağlama."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:79
+msgid "Behavior depends on hotkeys-show-dock and hotkeys-overlay."
+msgstr "Davranış, hotkeys-show-dock ve hotkeys-overlay ayarına bağlıdır."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:84
+msgid "Allow checks for updates without a passwrd"
+msgstr "Parola olmadan güncellemelerin kontrol edilmesine izin ver"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:90
+msgid "Custom command to run to check for updates"
+msgstr "Güncellemeleri kontrol etmek için çalıştırılacak özel komut"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:91
+msgid "Command to run to check for updates."
+msgstr "Güncellemeleri kontrol etmek için çalıştırma komutu."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:96
+msgid "Application to use to update, or custom command"
+msgstr "Güncellemek için kullanılacak uygulama veya özel komut"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:97
+msgid "0:gnome-software, 1:update-manager, 2: custom command"
+msgstr "0:gnome-yazılım, 1:güncelleme yöneticisi, 2: özel komut"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:103
+msgid "Command to run to update packages."
+msgstr "Paketleri güncellemek için çalıştırma komutu."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:108
+msgid "Show the output of the upgrade process on a terminal window"
+msgstr "Yükseltme işleminin çıktısını bir terminal penceresinde göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:109
+msgid "This is a safer way of upgrading packages."
+msgstr "Bu, paketleri yükseltmenin güvenli bir yoludur."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:114
+msgid "Terminal and options to use"
+msgstr "Terminal ve kullanım seçenekleri"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:115
+msgid "Terminal and options to execute a shell for the upgrade process"
+msgstr "Yükseltme işlemi için bir kabuk yürütme terminali ve seçenekleri"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:120
+msgid "Remove version numbers from checkupdates output"
+msgstr "Sürüm numaralarını kontrol güncellemeleri çıktısından kaldırın"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:126
+msgid "Distinguishes security/important updates from regular updates"
+msgstr "Güvenlik/önemli güncellemeleri düzenli güncellemelerden ayırt eder"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:132
+msgid "Auto-open list submenu when updates count is lower than this number"
+msgstr ""
+"Güncelleme sayısı bu sayıdan düşük olduğunda liste alt menüsünü otomatik aç"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:139
+msgid "Date and time of the last time a check for updates was run."
+msgstr "Güncelleme denetiminin en son çalıştırıldığı tarih ve saat."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:140
+msgid "This is stored and used on the next boot."
+msgstr "Bu, bir sonraki önyüklemede saklanır ve kullanılır."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:145
+msgid ""
+"Date and time of the last time a check for updates was run automatically."
+msgstr ""
+"Güncelleme kontrolünün en son otomatik olarak çalıştırıldığı tarih ve saat."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:146
+msgid ""
+"This is stored and used on the next boot. Used for calculating when the next "
+"check should take place."
+msgstr ""
+"Bu, bir sonraki önyüklemede saklanır ve kullanılır. Bir sonraki kontrolün ne "
+"zaman yapılması gerektiğini hesaplamak için kullanılır."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:151
+msgid "Show a list of new packages"
+msgstr "Yeni paketlerin listesini göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:152
+msgid "When a new package is found in the repository, it is added to a list."
+msgstr "Depoda yeni bir paket bulunduğunda listeye eklenir."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:157
+msgid "Show a list of obsolete packages"
+msgstr "Eski paketlerin bir listesini göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:158
+msgid "When an obsolete package is found, it is added to a list."
+msgstr "Eski bir paket bulunduğunda, bir listeye eklenir."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:163
+msgid "Show a list of residual packages"
+msgstr "Kalan paketlerin listesini göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:164
+msgid ""
+"When config files from package are not deleted after removal, the package is "
+"added to a list."
+msgstr ""
+"Paketteki yapılandırma dosyaları kaldırıldıktan sonra silinmediğinde, paket "
+"bir listeye eklenir."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:169
+msgid "Show a list of autoremovable packages"
+msgstr "Otomatik olarak kaldırılabilir paketlerin bir listesini göster"
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:170
+msgid "When a package is no longer required, it is added to a list."
+msgstr "Bir paket artık gerekli olmadığında bir listeye eklenir."
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:175
+msgid "List of packages to ignore for updates."
+msgstr "Güncellemeler için yoksayılacak paketlerin listesi."

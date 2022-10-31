@@ -1,0 +1,547 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-29 04:22+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: indicator.js:150
+msgid "New in repository"
+msgstr ""
+
+#: indicator.js:153 Settings.ui:1419
+msgid "Local/Obsolete packages"
+msgstr ""
+
+#: indicator.js:156
+msgid "Residual config files"
+msgstr ""
+
+#: indicator.js:159
+msgid "Autoremovable"
+msgstr ""
+
+#: indicator.js:163
+msgid "Settings"
+msgstr ""
+
+#: indicator.js:164
+msgid "Apply updates"
+msgstr ""
+
+#: indicator.js:167 indicator.js:250
+msgid "Check now"
+msgstr ""
+
+#: indicator.js:247
+msgid "Checking"
+msgstr ""
+
+#: indicator.js:310
+#, javascript-format
+msgid "%d update pending"
+msgid_plural "%d updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: indicator.js:342
+msgid "Error"
+msgstr ""
+
+#: indicator.js:346
+msgid "No internet"
+msgstr ""
+
+#: indicator.js:349
+msgid "Initializing"
+msgstr ""
+
+#: indicator.js:353
+msgid "Up to date"
+msgstr ""
+
+#: indicator.js:387 indicator.js:394
+msgid "New Update"
+msgid_plural "New Updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: indicator.js:395
+#, javascript-format
+msgid "There is %d update pending"
+msgid_plural "There are %d updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: indicator.js:581
+msgid "Update now"
+msgstr ""
+
+#: monitors.js:64
+#, javascript-format
+msgid "Can not connect to %s"
+msgstr ""
+
+#: prefs.js:66
+msgid "Indicator options"
+msgstr ""
+
+#: prefs.js:101
+msgid "Notification options"
+msgstr ""
+
+#: prefs.js:180
+msgid "Custom command for updates"
+msgstr ""
+
+#: prefs.js:271
+msgid "Package name"
+msgstr ""
+
+#: prefs.js:298
+msgid "Add entry to ignore list"
+msgstr ""
+
+#: prefs.js:373
+msgid "Edit entry"
+msgstr ""
+
+#: Settings.ui:74
+msgid "Always show the indicator"
+msgstr ""
+
+#: Settings.ui:109
+msgid "Show updates count on the indicator"
+msgstr ""
+
+#: Settings.ui:144
+msgid "If updates count is less than this number (0 to disable)"
+msgstr ""
+
+#: Settings.ui:158
+msgid "Auto-expand updates list"
+msgstr ""
+
+#: Settings.ui:227
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:48
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:49
+msgid "Send a notification when new updates are available"
+msgstr ""
+
+#: Settings.ui:247
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:60
+msgid "Use transient notifications (auto dismiss)"
+msgstr ""
+
+#: Settings.ui:276
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:54
+msgid "How much information to show on notifications"
+msgstr ""
+
+#: Settings.ui:287
+msgid "Up to a maximum of 50 package names."
+msgstr ""
+
+#: Settings.ui:303
+msgid "Count only"
+msgstr ""
+
+#: Settings.ui:304
+msgid "New updates names"
+msgstr ""
+
+#: Settings.ui:305
+msgid "All updates names"
+msgstr ""
+
+#: Settings.ui:362
+msgid "Command to update packages"
+msgstr ""
+
+#: Settings.ui:371
+msgid "You can use sudo instead of pkexec for the terminal."
+msgstr ""
+
+#: Settings.ui:407
+msgid "Show output on terminal"
+msgstr ""
+
+#: Settings.ui:442
+msgid "Terminal to use"
+msgstr ""
+
+#: Settings.ui:453
+msgid "Ex: xterm -e"
+msgstr ""
+
+#: Settings.ui:513 Settings.ui:609
+msgid "Clear entry"
+msgstr ""
+
+#: Settings.ui:550 Settings.ui:646
+msgid "Cancel"
+msgstr ""
+
+#: Settings.ui:565 Settings.ui:661
+msgid "Save"
+msgstr ""
+
+#: Settings.ui:714
+msgid "Check for updates every:"
+msgstr ""
+
+#: Settings.ui:725
+msgid "Automatic checks, 0 to disable"
+msgstr ""
+
+#: Settings.ui:753
+msgid "Hours"
+msgstr ""
+
+#: Settings.ui:754
+msgid "Days"
+msgstr ""
+
+#: Settings.ui:755
+msgid "Weeks"
+msgstr ""
+
+#: Settings.ui:797
+msgid "Strip out version numbers"
+msgstr ""
+
+#: Settings.ui:832
+msgid "Highlight security/important updates"
+msgstr ""
+
+#: Settings.ui:883
+msgid "Indicator"
+msgstr ""
+
+#: Settings.ui:942
+msgid "Notifications"
+msgstr ""
+
+#: Settings.ui:1005
+msgid "Shortcut to open the indicator"
+msgstr ""
+
+#: Settings.ui:1018
+msgid "Syntax: <Shift>, <Ctrl>, <Alt>, <Super>"
+msgstr ""
+
+#: Settings.ui:1064
+msgid "Basic settings"
+msgstr ""
+
+#: Settings.ui:1100
+msgid "Reset values for all commands"
+msgstr ""
+
+#: Settings.ui:1109
+msgid "Reset"
+msgstr ""
+
+#: Settings.ui:1146
+msgid "Update method"
+msgstr ""
+
+#: Settings.ui:1157
+msgid "Method to use to apply the updates."
+msgstr ""
+
+#: Settings.ui:1197
+msgid "Launch gnome-software"
+msgstr ""
+
+#: Settings.ui:1198
+msgid "Update-manager (Ubuntu only)"
+msgstr ""
+
+#: Settings.ui:1199
+msgid "Gnome package updater"
+msgstr ""
+
+#: Settings.ui:1200
+msgid "Custom"
+msgstr ""
+
+#: Settings.ui:1242
+msgid ""
+"The default command is \"pkcon refresh\", which uses packagekit with the apt "
+"backend. You can define a custom command below, to be executed using pkexec."
+msgstr ""
+
+#: Settings.ui:1257
+msgid "Use a custom command to check for updates"
+msgstr ""
+
+#: Settings.ui:1290
+msgid "Custom command to check for updates"
+msgstr ""
+
+#: Settings.ui:1318
+msgid "Advanced settings"
+msgstr ""
+
+#: Settings.ui:1354
+msgid ""
+"Include an item in the indicator with a list of new packages in the "
+"repository."
+msgstr ""
+
+#: Settings.ui:1369
+msgid "New packages in repository"
+msgstr ""
+
+#: Settings.ui:1404
+msgid ""
+"Include an item in the indicator with a list of obsolete or local packages. "
+"Obsolete packages are not available in the repository. Local packages are "
+"available, but an unavailable version is installed."
+msgstr ""
+
+#: Settings.ui:1454
+msgid ""
+"Include an item in the indicator with a list of packages that have residual "
+"config files. Run \"sudo apt purge pkgname\" to clean them."
+msgstr ""
+
+#: Settings.ui:1469
+msgid "Residual packages"
+msgstr ""
+
+#: Settings.ui:1504
+msgid ""
+"Include an item in the indicator with a list of autoremovable packages. Run "
+"\"sudo apt autoremove\" to remove them."
+msgstr ""
+
+#: Settings.ui:1519
+msgid "Autoremovable packages"
+msgstr ""
+
+#: Settings.ui:1555
+msgid "Package status"
+msgstr ""
+
+#: Settings.ui:1575
+msgid ""
+"Packages in this list will be excluded from the updates. As an example, this "
+"is useful for packages that are downgraded manually."
+msgstr ""
+
+#: Settings.ui:1659
+msgid "Ignore"
+msgstr ""
+
+#: Settings.ui:1703
+msgid "version: "
+msgstr ""
+
+#: Settings.ui:1731
+msgid "Adds an indicator to the top panel that allows to check for updates"
+msgstr ""
+
+#: Settings.ui:1747
+msgid "Maintained by"
+msgstr ""
+
+#: Settings.ui:1775
+msgid "Webpage"
+msgstr ""
+
+#: Settings.ui:1791
+msgid ""
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
+"Sethe <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, version 2 or later</a> for details.</span>"
+msgstr ""
+
+#: Settings.ui:1808
+msgid "About"
+msgstr ""
+
+#: updateManager.js:570
+msgid "Last check: "
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:19
+msgid "Interval between updates check"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:20
+msgid "Time to wait between two automatic checks"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:26
+msgid "Unit to use for the interval"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:27
+msgid "0: hours, 1: days, 2: weeks"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:32
+msgid "Indicator is always visble"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:33
+msgid ""
+"If true, the indicator is always visible, even when non updates are pending"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:40
+msgid "Show updates count on indicator"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:41
+msgid "If true, the indicator will display the number of updates pending"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:55
+msgid "0:count, 1:list"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:66
+msgid "Use a shortcut to open the indicator."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:72
+msgid "Keybinding to open the indicator."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:73
+msgid "If showing, the indicator menu is toggled."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:78
+msgid "Keybinding to show the dock and the number overlay."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:79
+msgid "Behavior depends on hotkeys-show-dock and hotkeys-overlay."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:84
+msgid "Allow checks for updates without a passwrd"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:90
+msgid "Custom command to run to check for updates"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:91
+msgid "Command to run to check for updates."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:96
+msgid "Application to use to update, or custom command"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:97
+msgid "0:gnome-software, 1:update-manager, 2: custom command"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:103
+msgid "Command to run to update packages."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:108
+msgid "Show the output of the upgrade process on a terminal window"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:109
+msgid "This is a safer way of upgrading packages."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:114
+msgid "Terminal and options to use"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:115
+msgid "Terminal and options to execute a shell for the upgrade process"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:120
+msgid "Remove version numbers from checkupdates output"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:126
+msgid "Distinguishes security/important updates from regular updates"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:132
+msgid "Auto-open list submenu when updates count is lower than this number"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:139
+msgid "Date and time of the last time a check for updates was run."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:140
+msgid "This is stored and used on the next boot."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:145
+msgid ""
+"Date and time of the last time a check for updates was run automatically."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:146
+msgid ""
+"This is stored and used on the next boot. Used for calculating when the next "
+"check should take place."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:151
+msgid "Show a list of new packages"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:152
+msgid "When a new package is found in the repository, it is added to a list."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:157
+msgid "Show a list of obsolete packages"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:158
+msgid "When an obsolete package is found, it is added to a list."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:163
+msgid "Show a list of residual packages"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:164
+msgid ""
+"When config files from package are not deleted after removal, the package is "
+"added to a list."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:169
+msgid "Show a list of autoremovable packages"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:170
+msgid "When a package is no longer required, it is added to a list."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml:175
+msgid "List of packages to ignore for updates."
+msgstr ""

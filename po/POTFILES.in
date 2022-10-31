@@ -1,0 +1,8 @@
+extension.js
+indicator.js
+monitors.js
+prefs.js
+Settings.ui
+updateManager.js
+utils.js
+schemas/org.gnome.shell.extensions.apt-update-indicator.gschema.xml

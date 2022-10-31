@@ -1,0 +1,10 @@
+gnome-shell-extension-apt-update-indicator (22) yirmibir; urgency=medium
+
+  * Import upstream version v22
+  * Add and Update translations
+  * Add debian and build files
+  * Fix typo
+  * Update defaults
+  * Update default indicator icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 29 Jun 2021 05:47:23 +0300

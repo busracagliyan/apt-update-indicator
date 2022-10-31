@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/default.mk
+
+%:
+	dh $@ --with gnome
+
+override_dh_fixperms:
+	dh_fixperms
+	find debian -name '*.js' -exec chmod 0755 {} +
+	find debian -name '*.css' -exec chmod 0755 {} +
+	find debian -name '*.json' -exec chmod 0755 {} +
+
+
+override_dh_install:
+	dh_install
